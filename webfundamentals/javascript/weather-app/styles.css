@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    height: 0px;
+}
+    #wrapper {
+        width: 970px; 
+        margin: 0px auto;
+    }
+        h1 {
+            font-size: 36pt;
+            text-align: center;
+            margin-bottom: 100px;
+            padding: 10px 0px;
+        }
+            #search {
+                margin-left: 370px;
+                padding: 8px;
+                border-radius: 5px;
+            }
+        h2 {
+            margin-top: 45px;
+            text-align: center;
+        }
+        p {
+            margin-top: 45px;
+            text-align: center;
+        }

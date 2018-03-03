@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('form').submit(function(){
+                    $('#output').html("");
+                    $.get(`https://api.openweathermap.org/data/2.5/weather?q=${$('input[name="search"]').val()}&units=imperial&APPID=b92692de33a17cf60f10b246fc168506`, function(tempf){
+                        var current_temp = tempf.main.temp;
+                        var city = tempf.name;
+                        $('#output').append("<h2>" + city + "</h2>",
+                        `<p>Temperature: ${current_temp}</p>`);
+                    }, 'json');
+                    return false;
+                }); 
+            });      
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Weather App</h1>
+            <form>
+                <input id="search" type="text" placeholder="Enter City" name="search">
+                <input type="submit" value="Search Weather">
+            </form>
+            <div id="output"></div> 
+        </div>
+    </body>
+</html>

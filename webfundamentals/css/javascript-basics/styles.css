@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    #container {
+        width: 1200px;
+        background-color: rgb(26, 58, 107);
+        height: auto;
+        margin: auto;
+        padding: 10px;
+    }
+    h1{
+        color: white;
+        padding: 15px;
+        font-size: auto;
+    }
+    #header{
+        background-color: rgb(206, 46, 46);
+        height: 70px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    #nav_menu{
+        background-color: rgb(53, 137, 148);
+        height: 205px;
+        width: 180px;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+        padding: 20px;
+    }
+    #main_content{
+        background-color: rgb(7, 7, 39);
+        height: 500px;
+        width: 925px;
+        display: inline-block;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        padding: 20px;
+    }
+    #footer{
+        background-color: rgb(104, 104, 107);
+        height: auto;
+        border-radius: 18px;
+        padding: 25px;
+    }
+    .links{
+        color: rgb(123, 230, 230);
+    }
+    #bullets_main{
+        margin-left: 15px;
+    }
+    #bullets_child{
+        margin-left: 15px;
+    
+    }
+    p{
+        color: white;
+    }
+    ul{
+        color: white;
+    }
+    h2{
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .maintext{
+        font-size: 10px;
+        color: white;
+    
+    }
+   .main_span{
+       color: rgb(147, 94, 233);
+       font-weight: bold;
+   }
+   .main_list{
+       margin: 15px 0px 15px 25px;
+   }
+   #special_list{
+       list-style-type: none;
+   }

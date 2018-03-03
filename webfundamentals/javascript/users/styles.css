@@ -1,0 +1,30 @@
+table {
+    border: 1px solid black;
+    margin-bottom: 75px;
+}
+    th {
+        padding: 0px 30px 0px 0px;
+    }
+h1 {
+    width: 285px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+form {
+    display: inline-block;
+    width: 300px;   
+}
+    label {
+        width: 100px;
+        display: inline-block;
+        text-align: right;
+        margin: 0px 0px 10px 50px;
+    }
+    input {
+        display: inline-block;
+    }
+    #submit {
+        margin-left: 220px;
+    }
+
+            

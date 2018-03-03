@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    body {
+        background-color: grey;
+    }
+        #wrapper {
+            margin: 0px auto;
+            width: 970px;
+            height: auto;
+            background-color: white;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+            header {
+                text-align: center;
+                padding: 10px 0px;
+            }
+                h2 {
+                    font-style: italic;
+                    padding: 5px 0px;
+                    font-size: 12pt;
+                }
+            img {
+                padding: 20px;
+                margin: 25px 35px;
+            }
+            footer {
+                padding: 10px 0px;
+            }
+                button {
+                    margin: 0px auto;
+                    padding: 10px 20px;
+                    display: block;
+                    color: white;
+                    border-radius: 5px;
+                    background-color: black;
+                }

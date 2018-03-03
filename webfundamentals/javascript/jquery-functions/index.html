@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Functions</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#hide').click(function(){
+                    $('p').hide();
+                });
+                $('#show').click(function(){
+                    $('p').show();
+                });
+                $('#toggle').click(function(){
+                    $('p').toggle();
+                });
+                $('#slide_down').click(function(){
+                    if ( $('img').is(":hidden")){
+                        $("img").slideDown(2000);
+                    }else {
+                        $("img").hide();
+                    }
+                });
+                $('#slide_up').click(function(){
+                    $('img').slideUp(2000);
+                });
+                $('#slide_toggle').click(function(){
+                    $('img').slideToggle(2000);
+                });
+                $('#fade_in').click(function(){
+                    $('p').fadeIn(2000);
+                });
+                $('#fade_out').click(function(){
+                    $('p').fadeOut(2000);
+                });
+                $('#add_class').click(function(){
+                    $('h1').addClass("italic");
+                });
+                $('#before').click(function(){
+                    $('p').before("This is where before goes.");
+                });
+                $('#after').click(function(){
+                    $('p').after("This is where after goes.");
+                });
+                $('#append').click(function(){
+                    $('p').append("<strong>**</strong>");
+                });
+                $('#html').click(function(){
+                    $('p').html("<p>Hello!<p>");
+                });
+                $('#attr').click(function(){
+                    $('#gif').attr("width", "100", "height", "350");
+                });
+                $('#val').click(function(){
+                    $('input').val("Enter Text Here");
+                });
+                $('#text').click(function(){
+                    $('p').text("<p>Hello!</p>");
+                });
+                $('#data').click(function(){
+                    $('#wrapper').data("greeting", "Welcome to jQuery Functions");
+                });
+                $('#data').click(function(){
+                    alert($('#wrapper').data("greeting"));
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>j<span>Query</span> Functions</h1>
+                <input type="text">
+                <button type="button">Go!</button>
+            </header>
+            <img src="chief_banner.jpg" alt="Master Chief Banner" height=175 width=970>
+            <div class="functions">
+                <button id="hide" type="button">Hide</button>
+                <h1>Hide</h1>
+                <p>Click button to hide text if text is visible. </p>
+            </div>
+            <div class="functions">
+                <button id="show" type="button">Show</button>
+                <h1>Show</h1>
+                <p>Click button to show text if text is hidden.</p>
+            </div>
+            <div class="functions">
+                <button id="toggle" type="button">Toggle</button>
+                <h1>Toggle</h1>
+                <p>Click button multiple times to toggle the text.</p>
+            </div>
+            <div class="functions">
+                <button id="slide_down" type="button">Slide Down</button>
+                <h1>Slide Down</h1>
+                <p>Click the button to slide banner down.</p>
+            </div>
+            <div class="functions">
+                <button id="slide_up" type="button">Slide Up</button>
+                <h1>Slide Up</h1>
+                <p>Click button to slide banner up.</p>
+            </div>
+            <div class="functions">
+                <button id="slide_toggle" type="button">Slide Toggle</button>
+                <h1>Slide Toggle</h1>
+                <p>Click button multiple times to slide toggle banner.</p>
+            </div>
+            <div class="functions">
+                <button id="fade_in" type="button">Fade In</button> 
+                <h1>Fade In</h1>
+                <p>Click button to fade in text if text is hidden</p>
+            </div>
+            <div class="functions">
+                <button id="fade_out" type="button">Fade Out</button>
+                <h1>Fade Out</h1>
+                <p>Click button to fade out text if text is visible</p>
+            </div>
+            <div class="functions">
+                <button id="add_class" type="button">Add Class</button>
+                <h1>Add Class</h1>
+                <p>Click button to add a class ("italics") to headers</p>
+            </div>
+            <div class="functions">
+                <button id="before" type="button">Before</button>
+                <h1>Before</h1>
+                <p>Click button to add text before the paragraph element.</p>
+            </div>
+            <div class="functions">
+                <button id="after" type="button">After</button>
+                <h1>After</h1>
+                <p>Click button to add text after the paragraph element.</p>
+            </div>
+            <div class="functions">
+                <button id="append" type="button">Append</button>
+                <h1>Append</h1>
+                <p>Click button to insert content after each child element.</p>
+            </div>
+            <div class="functions">
+                <button id="html" type="button">HTML</button>
+                <h1>HTML</h1>
+                <p>Click button to manipulate the paragraphs with .html. Tags will not show.</p>
+            </div>
+            <div class="functions">
+                <button id="attr" type="button">ATTR</button>
+                <h1>Attribute</h1>
+                <p>Click button to change the height and width of the gif.</p>
+                <img id="gif" src="heretic_dance.gif" alt="Grunt Dancing" height=50 width=50>
+            </div>
+            <div class="functions">
+                <button id="val" type="button">VAL</button>
+                <h1>Value</h1>
+                <p>Set the value of the input field on the top of the page to "Enter Text Here".</p>
+            </div>
+            <div class="functions">
+                <button id="text" type="button">Text</button>
+                <h1>Text</h1>
+                <p>Click button to change the paragraph with .text. Tags will show.</p>
+            </div>
+            <div class="functions">
+                <button id="data" type="button">Data</button>
+                <h1>Data</h1>
+                <p>Attach data 'greeting' to the wrapper div</p>
+            </div>
+        </div>
+    </body>
+</html>

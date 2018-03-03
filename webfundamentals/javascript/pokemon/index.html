@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pokemon</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var spriteString = ``;
+                for (var i =1; i < 152; i++){
+                 spriteString += `<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">`;
+                 }
+                 $('body').append(spriteString);
+            });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

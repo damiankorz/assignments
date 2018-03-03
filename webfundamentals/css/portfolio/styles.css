@@ -1,0 +1,125 @@
+*{
+    /* outline: dotted 2px black;  */
+    margin: 0px;
+    padding: 0px; 
+    font-family: Tahoma, sans-serif;
+  }
+    div {
+        width: 970px;
+        height: auto;
+        background: radial-gradient(rgb(94, 74, 89), rgb(94, 74, 89), rgb(34, 20, 31));
+        display: inline-block;
+    }
+   header {
+       background-color: white;
+       width: 970px;
+       margin-bottom: 15px;
+   }
+   h1 { 
+       display: inline-block;
+       font-family: "Comic Sans MS", sans-serif; 
+       margin: 10px;
+   }
+   h2 {
+       display: inline-block;
+       float: right;
+       margin: 16px;
+       font-size: 15pt;
+   }
+   section a {
+       margin: 5px 0 0 10px
+   }
+   #headshot {
+       border: 5px solid silver;
+       margin: 0px 15px 15px 15px;
+       display: inline;
+   }
+   #main_content h3 {
+       background: linear-gradient(silver, grey, silver); 
+       color: white;
+       display: inline-block;
+       vertical-align: top;
+       padding: 5px;
+       width: 512px;
+   }
+   #main_content {
+       width: 522px;
+       height: 260px;
+       background: linear-gradient(to right,white, rgb(220, 211, 229));
+       display: inline-block;
+       vertical-align: top;
+   }
+   p {
+       padding: 10px;
+       font-size: 12pt;
+   }
+  h3 {
+      width: 290px;
+      padding: 5px;
+      background: linear-gradient(silver, grey, silver); 
+      color: white;
+  }
+  .sub_content {
+      height: auto;
+      width: 300px;
+      display: inline-block;
+      margin: 0px 0px 17px 15px;
+  }
+  .sub_content p{
+      font-size: 11pt;
+  }
+  section {
+      height: 182px;
+      width: 300px;
+      background: linear-gradient(to right,white, rgb(220, 211, 229));
+  }
+  h4 {
+    width: 290px;
+    padding: 5px;
+    background: linear-gradient(silver, grey, silver); 
+    color: white;
+  }
+   section img {
+       margin: 8px;
+   }
+   .sub_pic {
+       margin: 0px;
+   }
+   button {
+       background-color: rgb(56, 104, 56);
+       padding: 5px;
+       color: white;
+       margin-top: 12px;
+       border-radius: 5px;
+       border: 1px solid black;
+       font-size: 12pt;
+       display: inline;
+   }
+   .button {
+       width: 300px;
+       height: 62px;
+       text-align: center;
+   }
+   footer {
+    background-color: white;
+    width: 970px
+   }
+   footer p {
+     padding: 7px;
+     text-align: center;
+     font-size: 10pt;
+   }
+   span {
+       margin: 0px 5px;
+   }
+   ul {
+       display: block;
+       text-align: center;
+       padding-bottom: 5px;
+   }
+   footer ul li {
+       display: inline;
+       margin-right: 5px;
+       font-style: italic;
+       font-size: 10pt;
+   }

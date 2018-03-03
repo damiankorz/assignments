@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    body {
+        background-image: url("papyrus.jpg");
+        background-repeat: none;
+        background-attachment: fixed;
+    }
+        #wrapper {
+            margin: 0px auto;
+            width: 970px;
+            /* background-color: transparent;  */
+            height: auto; 
+        }
+            h1 {
+                padding: 20px;
+                text-align: center;
+            }
+            #user_form {
+                width: 485px;
+                display: inline-block;
+                vertical-align: top;
+            }
+                form {
+                    display: inline-block;
+                    width: 300px;
+                    padding: 50px;
+                }
+                    form input {
+                        display: inline-block;
+                        margin-bottom: 15px;
+                    }
+                    form label {
+                        display: inline-block;
+                        width: 100px;
+                        margin-bottom: 15px;
+                    }
+                    #description {
+                        width: 232px;
+                        height: 100px;
+                    }
+                    #submit {
+                        margin-top: 25px;
+                        box-shadow: 1px 1px 5px black;
+                    }
+            #contact_cards {
+                padding: 50px;
+                display: inline-block;
+                width: 385px;
+            }
+                .cards {
+                    width: 385px;
+                    height: 100px;
+                    border: 1px solid black;
+                    text-align: center;
+                    font-size: 24pt;
+                    font-weight: bold;
+                    padding-top: 50px;
+                    margin-bottom: 25px;
+                }
+                #tog_description {
+                    display: none;
+                    font-size: 12pt;
+                    font-weight: lighter;
+                }
+                h2 {
+                    font-size: 12pt;
+                    font-weight: lighter;
+                }
+
+                
+                
+        
+                
+                

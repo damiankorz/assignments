@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Disappearing Ninja</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('img').click(function(){
+                    $(this).hide(2000);
+                });
+                $('button').click(function(){
+                    if($('img').is(":hidden")){
+                        $('img').show();
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Disappearing Ninja</h1>
+                <h2>Click the ninja to make him disappear!  </h2>
+            </header>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <img src="ninja.png" alt="Pic of Ninja" height=125 width=125>
+            <footer>
+                <button type="button">Reset</button>
+            </footer>
+        </div>
+    </body>
+</html>

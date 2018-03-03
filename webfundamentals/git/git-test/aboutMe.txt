@@ -1,0 +1,4 @@
+Name: Damian Korzeniewski
+Age: 26
+Goal: Master Git
+Favorite Book: Halo the Fall of Reach
