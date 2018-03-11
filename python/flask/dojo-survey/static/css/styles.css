@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    #wrapper {
+        width: 970px;
+        margin: 0px auto; 
+        height: 500px;
+        border: 2px solid black;
+        margin-top: 50px;
+    }
+        form {
+            padding: 50px;
+            margin-left: 250px;
+            display: inline-block;
+            width: 290px;
+        }
+            input {
+                display: inline-block;
+                margin-bottom: 15px;
+                width: 130px;
+            }
+            label {
+                display: inline-block;
+                width: 150px;
+                margin-bottom: 15px;
+            }
+            select {
+                width: 136px;
+            }
+            #comment {
+                width: 288px;
+                height: 100px;
+            }
+            #submit {
+                margin-top: 25px;
+                margin-left: 240px;
+                width: 50px;
+            }
+        h1 {
+            margin: 50px 0px 50px 250px;
+        }
+        p {
+            margin: 0px 0px 10px 250px;
+            width: 150px;
+            display: inline-block;
+        }
+        .var {
+            margin: 0px 0px 10px 40px;
+            width: 400px;
+            display: inline-block;
+            color: blue;
+            font-weight: bold;
+        }
+        #submit2 {
+            width: 75px;
+            margin-left: 215px;
+        }
+        #mainhead {
+            margin: 50px 0px 0px 300px;
+        }

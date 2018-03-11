@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dojo Survey</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    </head>
+    <body>
+        <div id="wrapper">
+           <h1>Spartan Service Record</h1>
+           <p>Gamer Tag:</p>
+           <p class="var">{{ name }}</p>
+           <p>Halo CSR Rank:</p>
+           <p class="var">{{ rank }}</p>
+           <p>Favorite Mode:</p>
+           <p class="var">{{ mode }}</p>
+           <p>Comments:</p>
+           <p class="var">{{ comment }}</p>
+           <form action="/">
+                <input id="submit2" type="submit" name="submit" value="Go Back!">
+            </form>
+        </div>
+    </body>
+</html>
