@@ -1,0 +1,17 @@
+<!doctype hmtl>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Session Counter</title>
+    </head>
+    <body>
+        <h1>Count</h1>
+        <p>Times: {{session['count']}}</p>
+        <form action="/double" method="post">
+            <input type="submit" id="double" value="Double">
+        </form>
+        <form action="/reset" method="post">
+            <input type="submit" id="reset" value="Reset">
+        </form>
+    </body>
+</html>
