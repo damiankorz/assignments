@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    #wrapper {
+        width: 970px;
+        margin: 0px auto;
+    }
+        h1 {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+            #guess {
+                margin: 15px 0px 15px 420px;
+                text-align: center;
+            }
+            #submit {
+                display: block;
+                margin-left: 460px;
+            }
+        .wrong {
+            width: 200px; 
+            height: 200px;
+            margin: 0px auto;
+            background-color: red;
+            border: 2px black solid;
+        }
+            .wrong p {
+                color: white;
+                margin: 75px 0px 75px 0px;
+                font-size: 22pt;
+                font-style: bold;
+            }
+        #right {
+            width: 200px; 
+            height: 200px;
+            margin: 0px auto;
+            background-color: green;
+            border: 2px black solid;
+        }
+            #right p {
+                color: white;
+                margin-top: 50px;
+                font-size: 22pt;
+                font-style: bold;
+            }
+                #reset {
+                    display: block;
+                    margin: 0px auto;
+                }
