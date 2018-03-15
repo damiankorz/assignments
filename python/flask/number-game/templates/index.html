@@ -10,28 +10,30 @@
             <h1>Welcome to the Great Number Game!</h1>
             <p>I am thinking of a number between 1 and 100!</p>
             <p>Take a guess!</p>
-            <p>{{session['num']}}</p>
-            <p>{{session['guess']}}</p>
-            {% if session.guess < session['num'] %}
-            <div class="wrong">
-                <p>Too Low!</p>
-            </div>
-            {% elif session['guess'] > session['num'] %}
-            <div class="wrong">
-                <p>Too High!</p>
-            </div>
-            {% else %}
-            <div id="right">
-                <p>{{session['num']}} was the number!</p>
-                <form action="/reset" method="post">
-                    <input type="submit" id="reset" value="Reset!">
-                </form>
-            </div>
-            {% endif %}
+            {% if session['guess'] %}
+                {% if session['guess'] == 'low' %}
+                <div class="wrong">
+                    <p>Too Low!</p>
+                </div>
+                {% elif session['guess'] == 'high' %}
+                <div class="wrong">
+                    <p>Too High!</p>
+                </div>
+                {% elif session['guess'] == 'correct' %}
+                <div id="right">
+                    <p>{{session['num']}} was the number!</p>
+                    <form action="/reset" method="post">
+                        <input type="submit" id="reset" value="Reset!">
+                    </form>
+                </div>
+                {% endif %}
+            {% endif %}  
+            {% if session['guess'] != 'correct' %}
             <form action="/guess" method="post">
                 <input type="text" id="guess" name="guess" placeholder="Enter number here">
                 <input type="submit" id="submit" name="submit">
             </form>
+            {% endif %}
         </div>
     </body>
 </html>
