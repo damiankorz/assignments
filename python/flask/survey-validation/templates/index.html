@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dojo Survey</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1 id="mainhead">Spartan Registration</h1>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            {% endwith %}
+            <form action="/results" method="post">
+                <label for="name">Gamer Tag: </label>
+                <input type="text" id="name" name="name">
+                <label for="rank">Halo CSR Rank:</label>
+                <select name="rank" id="rank">
+                    <option value="Bronze">Bronze</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Gold">Gold</option>
+                    <option value="Platinum">Platinum</option>
+                    <option value="Diamond">Diamond</option>
+                    <option value="Onyx">Onyx</option>
+                    <option value="Champion">Champion</option>
+                </select>
+                <label for="mode">Favorite Mode:</label>
+                <select name="mode" id="mode">
+                    <option value="Slayer">Slayer</option>
+                    <option value="Team Arena">Team Arena</option>
+                    <option value="Doubles">Doubles</option>
+                    <option value="SWAT">SWAT</option>
+                    <option value="Breakout">Breakout</option>
+                    <option value="Snipers">Snipers</option>
+                </select>
+                <label for="comment">Comments:</label>
+                <textarea id="comment" name="comment" placeholder="Enter comment (no more than 120 characters)"></textarea>
+                <input id="submit" type="submit" name="submit">
+            </form>
+        </div>
+    </body>
+</html>
