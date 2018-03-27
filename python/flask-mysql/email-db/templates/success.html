@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+        <title>Success</title>
+    </head>
+    <body>
+        <div id="wrapper2">
+            {% with messages = get_flashed_messages(category_filter=['success']) %}
+                {% if messages %}
+                    {% for message in messages %}
+                    <p class="success">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <h1>Emails entered:</h1>
+            {% for email in all_emails %}
+                <p class="data">{{ email['email'] }} {{ email['created_at'] }}</p>
+            <form action="/delete/<email_id>" method="post">
+                <input type="hidden" name="hidden" value="{{ email['id']}}">
+                <input type="submit" class="delete" value="Delete">
+            </form>
+            {% endfor %}
+            <form action="/home" method="post">
+                <input type="submit" class="submit" value="Home">
+            </form>
+        </div>
+    </body>
+</html>

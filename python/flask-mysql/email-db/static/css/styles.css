@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    #wrapper {
+        margin: 0px auto;
+        width: 570px;
+        padding: 100px;
+        height: 500px;
+    }
+        .error {
+            text-align: center;
+            background-color: red;
+            margin-bottom: 15px;
+            padding: 15px 0px;
+            border: 1px solid black;
+            font-weight: bold;
+            color: white;
+        }
+        .success {
+            text-align: center;
+            background-color: green;
+            margin-bottom: 15px;
+            padding: 15px 0px;
+            border: 1px solid black;
+            font-weight: bold;
+            color: white;
+        }
+            label {
+                margin-left: 100px;
+            }
+            #email {
+                width: 200px;
+                margin-right: 150px;
+            }
+            .submit {
+                margin-left: 250px;
+                margin-top: 25px;
+            }
+            .delete {
+                margin: 0px;
+                display: inline-block;
+            }
+    #wrapper2 {
+        margin: 0px auto;
+        width: 570px;
+        padding: 100px;
+        height: 500px;
+    }
+        .data {
+            display: inline-block;
+            padding: 5px 0px;
+            width: 500px;
+        }
+        #wrapper2 form {
+            display: inline-block;
+        }
+            
