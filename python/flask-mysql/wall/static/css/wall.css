@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    #container {
+        width: 970px;
+        margin: 0px auto;
+    }   
+        h1 {
+            text-align: center;
+            padding: 10px;
+        }
+        #logout {
+            background-color: black;
+        }
+        .flashes {
+            text-align: center;
+            padding: 5px;
+        }
+        textarea {
+            margin-left: 165px;
+        }
+        input[type='submit'] {
+            display: block;
+            margin: 0px auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 5px;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+        }
+        #submit {
+            background-color: green;
+        }
+        .post_wrapper {
+            width: 617px; 
+            margin-left: 165px;
+        }
+            .post_wrapper textarea {
+                margin: 0px;
+                margin-top: 25px;
+            }
+            .post_wrapper input {
+                margin-left: 270px;
+            }
+            .post_wrapper p {
+                margin-top: 5px;
+            }
+            span {
+                font-weight: bold;
+            }
+            .indent_comment {
+                margin-left: 25px;
+                margin-top: 5px;
+            }

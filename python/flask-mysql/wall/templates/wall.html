@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/wall.css') }}">
+        <title>Wall</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Hello {{current_user[0]['first_name']}} {{current_user[0]['last_name']}}!</h1>
+            <form action="/logout" method="post">
+                <input type="submit" id="logout" value="Logout">
+            </form>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <p class="flashes">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <form action="/messages" method="post">
+                <textarea name="messages" id="messages" cols="100" rows="5  " placeholder="Enter your message here"></textarea>
+                <input type="submit" value="Post a Message">
+            </form>
+            {% for message in all_messages %}
+            <div class="post_wrapper">
+                <p><span>{{ message.first_name }} {{message.last_name}} - {{message.created_at}}</span></p>
+                <p>{{ message.message }}</p>
+                    {% for comment in all_comments %}
+                        {% if message['id'] == comment['message_id'] %}
+                        <p class="indent_comment"><span>{{ comment.first_name }} {{ comment.last_name }} - {{ comment.created_at }}</span></p>
+                        <p class="indent_comment">{{comment.comment}}</p>
+                        {% endif %}
+                    {% endfor %}
+                <form action="/comments" method="post">
+                    <textarea name="comments" id="comments" cols="100" rows="3" placeholder="Enter your comment here"></textarea>
+                    <input type="hidden" name="hidden" value="{{ message.id }}">
+                    <input type="submit" value="Post a Comment" id="submit">
+                </form>
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>

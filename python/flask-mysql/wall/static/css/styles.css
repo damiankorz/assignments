@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    #wrapper {
+        width: 970px;
+        margin: 0px auto;
+    }
+        #login, #register {
+            margin: 0px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        #login {
+            margin-left: 250px;
+            margin-right: 150px;
+        }
+            h1 {
+                padding: 10px;
+                text-align: center;
+            }
+                input {
+                    display: block;
+                    margin: 0px auto;
+                    margin-top: 5px;
+                    padding: 5px;
+                    text-align: center;
+                }
+                input[type="submit"] {
+                    display: block;
+                    margin: 0px auto;
+                    margin-top: 15px;
+                    margin-bottom: 25px;
+                    font-size: 12pt;
+                }
+        p {
+            text-align: center;
+        }
