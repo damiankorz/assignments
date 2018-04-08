@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Results</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'survey_app/css/styles.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Thank you for submitting the form! You have submitted this 
+                form {{ request.session.count }} times now</h1>
+            <div id="results_div">
+                <h2>Submitted Info</h2>
+                <p><span>Name:</span> <span class="user_info">{{ request.session.name }}</span></p>
+                <p><span>Location:</span> <span class="user_info">{{ request.session.location }}</span></p>
+                <p><span>Favorite Language:</span> <span class="user_info">{{ request.session.language }}</span></p>
+                <p><span>Comments:</span> <span class="user_info">{{ request.session.comments }}</span></p>
+                <form action="/" method="post">
+                {% csrf_token %}
+                    <input type="submit" id="return" value="Go Back!">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
