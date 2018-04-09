@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'session_words/css/styles.css' %}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="input">
+                <h1>Add a new word</h1>
+                <form action="/add_words" method="post">
+                {% csrf_token %}
+                    <input type="text" name="word" placeholder="Enter word here">
+                    <p>Choose a Color:</p>
+                    <input type="radio" id="blue" name="color" value="blue">
+                    <label for="blue">Blue</label>
+                    <input type="radio" id="red" name="color" value="red">
+                    <label for="red">Red</label>
+                    <input type="radio" id="green" name="color" value="green">
+                    <label for="green">Green</label>
+                    <input type="checkbox" id="big" name="size" value='true'>
+                    <label for="size">Show in BIG font!</label>
+                    <input type="submit" id="add" name="submit" value="Add to Session">
+                </form>
+            </div><div id="output">
+                <form action="/clear" method="post">
+                {% csrf_token %}
+                    <input type="submit" id="clear" name="submit" value="Clear Session">
+                </form>
+                {% for i in request.session.words %}
+                    {% if i.color == 'blue' and i.size == none %}
+                        <p><span class="blue">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% elif i.color == 'blue' and i.size == 'true' %}
+                        <p><span class="big_blue">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% elif i.color == 'red' and i.size == none %}
+                        <p><span class="red">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% elif i.color == 'red' and i.size == 'true' %}
+                        <p><span class="big_red">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% elif i.color == 'green' and i.size == none %}
+                        <p><span class="green">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% elif i.color == 'green' and i.size == 'true' %}
+                        <p><span class="big_green">{{ i.word }}</span> - added on {{ i.time }}</p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    #wrapper {
+        width: 970px;
+        margin: 0px auto;
+        padding-top: 25px;
+    }
+        #input {
+            width: 450px;
+            padding: 15px;
+            display: inline-block;
+            border-right: 5px solid black;
+        }
+                input[type="text"] {
+                    padding: 5px; 
+                    width: 400px;
+                    margin: 10px 0px;
+                }
+                input[type="radio"] {
+                    margin-left: 15px;
+                    margin-top: 5px;
+                }
+                input[type="checkbox"] {
+                    margin: 15px 0px;
+                }
+                label {
+                    display: inline-block;
+                    width: 405px;
+                }
+                #add {
+                    padding: 5px; 
+                    color: white;
+                    background-color: blue;
+                    font-weight: bold;
+                    border-radius: 2px;
+                }
+        #output {
+            width: 455px;
+            height: 400px;
+            padding: 15px;
+            display: inline-block;
+            vertical-align: top;
+        }
+                #clear {
+                    padding: 5px;
+                    color: white;
+                    background-color: red;
+                    font-weight: bold;
+                    border-radius: 2px;
+                    margin-left: 355px;
+                    margin-bottom: 25px;
+                }
+                .blue {
+                    color: blue;
+                }
+                .red {
+                    color: red;
+                }
+                .green {
+                    color: green;
+                }
+                .big_blue {
+                    color: blue;
+                    font-size: 16pt;
+                }
+                .big_red {
+                    color: red;
+                    font-size: 16pt;
+                }
+                .big_green {
+                    color: green;
+                    font-size: 16pt;
+                }
+                span {
+                    margin-bottom: 10px;
+                    width: 125px;
+                    display: inline-block;
+                }
