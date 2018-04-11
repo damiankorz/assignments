@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'gold_game/css/styles.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <p>Your gold: <span>{{ request.session.count }}</span></p>
+        <div class="places">
+            <p>Farm</p>
+            <p>(earns 10-20 gold)</p>
+            <form action="/process" method="post">
+            {% csrf_token %}
+                <input type="hidden" name="building" value="farm">
+                <input class="submit" type="submit"  value="Find Gold!">
+            </form>
+        </div> <!-- end farm -->
+        <div class="places">
+            <p>Cave</p>
+            <p>(earns 5-10 gold)</p>
+            <form action="/process" method="post">
+            {% csrf_token %}
+                <input type="hidden" name="building" value="cave">
+                <input class="submit" type="submit"  value="Find Gold!">
+            </form>
+        </div> <!-- end cave -->
+        <div class="places">
+            <p>Dojo</p>
+            <p>(earns 2-5 gold)</p>
+            <form action="/process" method="post">
+            {% csrf_token %}
+                <input type="hidden" name="building" value="dojo">
+                <input class="submit" type="submit"  value="Find Gold!">
+            </form>
+        </div> <!-- end dojo -->
+        <div class="places">
+            <p>Casino</p>
+            <p>(earns/takes 0-50 gold)</p>
+            <form action="/process" method="post">
+            {% csrf_token %}
+                <input type="hidden" name="building" value="casino">
+                <input class="submit" type="submit"  value="Find Gold!">
+            </form>
+        </div> <!-- end casino -->
+        <p id="log">Activities:</p>
+        <div id="activities">
+            {% for i in request.session.activities %}
+                {% if "lost" in i%}
+                <p class="lost">{{ i }}</p>
+                    {% if request.session.count < 0 %}
+                    <p class="lost">Uh oh! You owe the casino money. Go explore other areas to earn more gold.</p>
+                    {% endif %}
+                {% else %}
+                <p id="earned">{{ i }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <form action="/reset">
+            <input type="submit" id="reset" value="Reset!">
+        </form>
+    </div>
+</body>
+</html>
