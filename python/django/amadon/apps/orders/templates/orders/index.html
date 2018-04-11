@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amadon</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'orders/css/styles.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h4>Item</h4>
+            <h4>Price</h4>
+            <h4>Actions</h4>
+        </header>
+        <form action="/amadon/process" method="post">
+        {% csrf_token %}
+            <p>Dojo T-shirt</p>
+            <p>$19.99</p>
+            <select name="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <input type="hidden" name="product_id" value="101">
+            <input type="submit" value="Buy!">
+        </form>
+        <form action="/amadon/process" method="post" class="shaded_row">
+        {% csrf_token %}
+            <p>Dojo Sweater</p>
+            <p>$29.99</p>
+            <select name="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <input type="hidden" name="product_id" value="102">
+            <input type="submit" value="Buy!">
+        </form>
+        <form action="/amadon/process" method="post">
+        {% csrf_token %}
+            <p>Dojo Cup</p>
+            <p>$4.99</p>
+            <select name="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <input type="hidden" name="product_id" value="103">
+            <input type="submit" value="Buy!">
+        </form>
+        <form action="/amadon/process" method="post" class="shaded_row">
+        {% csrf_token %}
+            <p>Algorithim Book</p>
+            <p>$49.99</p>
+            <select name="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <input type="hidden" name="product_id" value="104">
+            <input type="submit" value="Buy!">
+        </form>
+    </div>
+</body>
+</html>
+
+
