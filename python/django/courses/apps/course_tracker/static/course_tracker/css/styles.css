@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    .wrapper {
+        padding: 25px 75px;
+    }
+        h1 {
+            margin-bottom: 10px;
+        }
+            li {
+                color: red;
+                margin-bottom: 5px;
+                list-style-type: none;
+            }
+        form {
+            width: 400px;
+        }
+            form label {
+                display: inline-block;
+                width: 150px;
+                vertical-align: top;
+                margin-bottom: 10px;
+            }
+            form input[type='text'] {
+                width: 223px;
+            }
+            form #add {
+                margin: 5px 0px 15px 347px;
+                padding: 5px;
+                background-color: green;
+                color: white;
+                font-weight: bold;
+                border: 1px solid black;
+                border-radius: 2px;
+                box-shadow: 2px 2px 5px grey;
+            }
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+            table th {
+                background-color: black;
+                color: white;
+                padding: 5px;
+                width: 200px;
+                text-align: left;
+            }
+            table td {
+                padding: 5px;
+                width: 200px;
+            }
+            table .col_desc {
+                width: 300px;
+            }
+                a {
+                    color: blue;
+                }
+        span {
+            display: inline-block;
+            width: 150px;
+        }
+        h2 {
+            font-size: 14pt;
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+        .destroy {
+            width: auto;
+            display: inline-block;
+        }
+            #deny {
+                font-weight: bold;
+                padding: 5px;
+                background-color: grey;
+                color: white;
+                margin: 15px 10px 0px 280px;
+                border: 1px solid black;
+                border-radius: 2px; 
+                box-shadow: 2px 2px 5px grey;
+                display: inline-block;
+            }
+            #confirm {
+                font-weight: bold;
+                padding: 5px;
+                background-color: red;
+                color: white;
+                margin: 15px 10px 0px 15px;
+                border: 1px solid black;
+                border-radius: 2px; 
+                box-shadow: 2px 2px 5px grey;
+                display: inline-block;
+            }
+
