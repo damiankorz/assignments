@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax Posts</title>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>         
+    <h1>Previous Posts</h1>
+    {% for post in posts %}
+    <p style="display: inline-block; width: 200px; height: 200px; border: 1px solid black; overflow: scroll;">{{ post.content }}</p>
+    {% endfor %}
+    <h1>New Posts</h1>
+    <div id="placeholder">
+    </div>
+    <form action="/create" method="post" id="create_post_form">
+    {% csrf_token %}
+        <textarea name="posts" cols="40" rows="6" placeholder="Add note here" style="display: block"></textarea>
+        <input type="submit" value="Add Note">
+    </form>
+    <script>
+        $('#create_post_form').submit(function(e){
+            e.preventDefault()
+            // console.log("sending AJAX request")
+            $.ajax({
+                url: $(this).attr('action'),
+                method: 'post',
+                data: $(this).serialize(),
+                success: function(serverResponse) {
+                    $('#placeholder').append(serverResponse)
+                    $('#create_post_form')[0].reset()
+                }
+            })
+        });
+    </script>
+</body>
+</html>
