@@ -36,7 +36,7 @@
         })
     });
     $(document).on('click', 'p', function(){
-        note_id = $(this).parent().get()[0].id
+        var note_id = $(this).parent().get()[0].id
         $(this).replaceWith(`<form action="/update/${note_id}" method="post" class="update_${note_id}">{% csrf_token %} <textarea name="content" cols="30" rows="10" placeholder="Enter new content"></textarea><input type="submit" value="Update Note"></form>`)
         $(`.update_${note_id}`).submit(function(e){
             e.preventDefault()
