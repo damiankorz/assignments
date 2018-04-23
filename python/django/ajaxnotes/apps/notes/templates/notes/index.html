@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax Notes</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'notes/css/styles.css' %}">
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Notes</h1>
+    <div id="placeholder"></div>
+    <h5>Add a new note</h5>
+    <form action="/create" method="post" id="new_note_form">
+    {% csrf_token %}
+        <input type="text" name="title" placeholder="Title">
+        <textarea name="content" cols="30" rows="10" placeholder="Enter description here"></textarea>
+        <input type="submit" value="Add Note">
+    </form>
+    <script>
+    $('#new_note_form').submit(function(e){
+        e.preventDefault()
+        $.ajax({
+            url: $(this).attr('action'),
+            method: 'post',
+            data: $(this).serialize(),
+            success: function(serverResponse) {
+                $('#placeholder').html(serverResponse)
+                $('#new_note_form')[0].reset()
+            }
+        })
+    });
+    $(document).on('click', 'p', function(){
+        note_id = $(this).parent().get()[0].id
+        $(this).replaceWith(`<form action="/update/${note_id}" method="post" class="update_${note_id}">{% csrf_token %} <textarea name="content" cols="30" rows="10" placeholder="Enter new content"></textarea><input type="submit" value="Update Note"></form>`)
+        $(`.update_${note_id}`).submit(function(e){
+            e.preventDefault()
+            $.ajax({
+                url: $(this).attr('action'),
+                method: 'post',
+                data: $(this).serialize(),
+                success: function(serverResponse) {
+                    $(`.update_${note_id}`).replaceWith(serverResponse)
+                }
+            })
+        })
+    });
+    </script>
+</body>
+</html>

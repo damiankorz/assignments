@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    {% for note in notes %}
+    <div id="{{ note.id }}">
+        <h4>{{ note.title }}</h4>
+        <h6>Click description to edit content</h6>
+        <p>{{ note.content }} </p>
+        <form action="/delete/{{ note.id }}" method="post" id="delete_{{note.id}}">
+        {% csrf_token %}
+            <input type="submit" value="Delete Note">
+        </form>
+    </div>
+    <script>
+    $('#delete_{{note.id}}').submit(function(e){
+        e.preventDefault()
+        $.ajax({
+            url: $(this).attr('action'),
+            method: 'post',
+            data: $(this).serialize(),
+            success: $(this).parent().remove()
+        })
+    });
+    </script>
+    {% endfor %}
+</body>
+</html>
