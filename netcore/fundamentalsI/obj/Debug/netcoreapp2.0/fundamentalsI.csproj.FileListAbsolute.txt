@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.deps.json
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.pdb
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/damiank/Desktop/assignments/netcore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.pdb
