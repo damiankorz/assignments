@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.deps.json
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.dll
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/bin/Debug/netcoreapp2.0/collectionsPractice.pdb
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.dll
+/Users/damiank/Desktop/assignments/netcore/collectionsPractice/obj/Debug/netcoreapp2.0/collectionsPractice.pdb
