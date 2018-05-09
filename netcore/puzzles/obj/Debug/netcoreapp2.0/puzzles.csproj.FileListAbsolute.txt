@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/damiank/Desktop/assignments/netcore/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/damiank/Desktop/assignments/netcore/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/damiank/Desktop/assignments/netcore/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/damiank/Desktop/assignments/netcore/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb
