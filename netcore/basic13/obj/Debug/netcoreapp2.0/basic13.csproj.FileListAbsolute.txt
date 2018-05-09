@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/basic13/bin/Debug/netcoreapp2.0/basic13.deps.json
+/Users/damiank/Desktop/assignments/netcore/basic13/bin/Debug/netcoreapp2.0/basic13.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/basic13/bin/Debug/netcoreapp2.0/basic13.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/basic13/bin/Debug/netcoreapp2.0/basic13.dll
+/Users/damiank/Desktop/assignments/netcore/basic13/bin/Debug/netcoreapp2.0/basic13.pdb
+/Users/damiank/Desktop/assignments/netcore/basic13/obj/Debug/netcoreapp2.0/basic13.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/basic13/obj/Debug/netcoreapp2.0/basic13.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/basic13/obj/Debug/netcoreapp2.0/basic13.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/basic13/obj/Debug/netcoreapp2.0/basic13.dll
+/Users/damiank/Desktop/assignments/netcore/basic13/obj/Debug/netcoreapp2.0/basic13.pdb
