@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.deps.json
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.dll
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.pdb
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.dll
+/Users/damiank/Desktop/assignments/netcore/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.pdb
