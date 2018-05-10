@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/bin/Debug/netcoreapp2.0/OOPHuman.deps.json
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/bin/Debug/netcoreapp2.0/OOPHuman.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/bin/Debug/netcoreapp2.0/OOPHuman.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/bin/Debug/netcoreapp2.0/OOPHuman.dll
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/bin/Debug/netcoreapp2.0/OOPHuman.pdb
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/obj/Debug/netcoreapp2.0/OOPHuman.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/obj/Debug/netcoreapp2.0/OOPHuman.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/obj/Debug/netcoreapp2.0/OOPHuman.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/obj/Debug/netcoreapp2.0/OOPHuman.dll
+/Users/damiank/Desktop/assignments/netcore/OOPHuman/obj/Debug/netcoreapp2.0/OOPHuman.pdb
