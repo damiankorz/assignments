@@ -1,0 +1,10 @@
+/Users/damiank/Desktop/assignments/netcore/Warriors/bin/Debug/netcoreapp2.0/Warriors.deps.json
+/Users/damiank/Desktop/assignments/netcore/Warriors/bin/Debug/netcoreapp2.0/Warriors.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/Warriors/bin/Debug/netcoreapp2.0/Warriors.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/Warriors/bin/Debug/netcoreapp2.0/Warriors.dll
+/Users/damiank/Desktop/assignments/netcore/Warriors/bin/Debug/netcoreapp2.0/Warriors.pdb
+/Users/damiank/Desktop/assignments/netcore/Warriors/obj/Debug/netcoreapp2.0/Warriors.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Warriors/obj/Debug/netcoreapp2.0/Warriors.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Warriors/obj/Debug/netcoreapp2.0/Warriors.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/Warriors/obj/Debug/netcoreapp2.0/Warriors.dll
+/Users/damiank/Desktop/assignments/netcore/Warriors/obj/Debug/netcoreapp2.0/Warriors.pdb
