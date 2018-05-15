@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/bin/Debug/netcoreapp2.0/TerminalStarWars.deps.json
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/bin/Debug/netcoreapp2.0/TerminalStarWars.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/bin/Debug/netcoreapp2.0/TerminalStarWars.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/bin/Debug/netcoreapp2.0/TerminalStarWars.dll
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/bin/Debug/netcoreapp2.0/TerminalStarWars.pdb
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.dll
+/Users/damiank/Desktop/assignments/netcore/TerminalStarWars/obj/Debug/netcoreapp2.0/TerminalStarWars.pdb

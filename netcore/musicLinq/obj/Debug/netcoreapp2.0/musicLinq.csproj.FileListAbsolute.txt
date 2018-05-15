@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/musicLinq/bin/Debug/netcoreapp2.0/musicLinq.deps.json
+/Users/damiank/Desktop/assignments/netcore/musicLinq/bin/Debug/netcoreapp2.0/musicLinq.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/musicLinq/bin/Debug/netcoreapp2.0/musicLinq.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/musicLinq/bin/Debug/netcoreapp2.0/musicLinq.dll
+/Users/damiank/Desktop/assignments/netcore/musicLinq/bin/Debug/netcoreapp2.0/musicLinq.pdb
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.dll
+/Users/damiank/Desktop/assignments/netcore/musicLinq/obj/Debug/netcoreapp2.0/musicLinq.pdb
