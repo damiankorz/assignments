@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/bin/Debug/netcoreapp2.0/simpleCRUD.deps.json
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/bin/Debug/netcoreapp2.0/simpleCRUD.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/bin/Debug/netcoreapp2.0/simpleCRUD.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/bin/Debug/netcoreapp2.0/simpleCRUD.dll
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/bin/Debug/netcoreapp2.0/simpleCRUD.pdb
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.dll
+/Users/damiank/Desktop/assignments/netcore/simpleCRUD/obj/Debug/netcoreapp2.0/simpleCRUD.pdb
