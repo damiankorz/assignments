@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.deps.json
+/Users/damiank/Desktop/assignments/netcore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.dll
+/Users/damiank/Desktop/assignments/netcore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.pdb
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.dll
+/Users/damiank/Desktop/assignments/netcore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.pdb
