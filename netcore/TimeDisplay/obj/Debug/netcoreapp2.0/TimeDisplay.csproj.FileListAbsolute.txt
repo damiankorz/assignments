@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.deps.json
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.pdb
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/damiank/Desktop/assignments/netcore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.pdb
