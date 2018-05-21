@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/bin/Debug/netcoreapp2.0/PasscodeGenerator.deps.json
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/bin/Debug/netcoreapp2.0/PasscodeGenerator.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/bin/Debug/netcoreapp2.0/PasscodeGenerator.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/bin/Debug/netcoreapp2.0/PasscodeGenerator.dll
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/bin/Debug/netcoreapp2.0/PasscodeGenerator.pdb
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.dll
+/Users/damiank/Desktop/assignments/netcore/PasscodeGenerator/obj/Debug/netcoreapp2.0/PasscodeGenerator.pdb
