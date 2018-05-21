@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #364356;
+}
+.wrapper {
+    margin: 0px auto;
+}
+    header {
+        padding: 10px;
+        background: linear-gradient(to bottom right, #444444, #e6da80);
+        border-bottom: 2px solid black;
+        margin-bottom: 25px;
+    }
+        .nav_bar {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 25px;
+            margin-left: 15px;
+        }
+            .nav_links {
+                font-family: Arial;
+                font-weight: bold;
+                margin-right: 15px;
+                text-decoration: none;
+                font-size: 14pt;
+                color: black;
+            }
+    .main_divs {
+        margin: 0px auto;
+        margin-bottom: 25px;
+        width: 50%;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px grey;
+    }
+        h1 {
+            padding: 15px;
+            font-family: Arial;
+            text-align: center;
+            border-bottom: 1px solid silver;
+        }
+        #profile_pic {
+            border-radius: 50%;
+            display:block;
+            margin: 0px auto;
+            margin-top: 25px;
+        }
+        #social_media_div {
+            padding: 25px;
+            text-align:center;
+        }
+            #social_media_div a {
+                color: grey;
+                margin-right: 10px;
+            }
+        h2 {
+            padding: 10px;
+            font-family: Arial;
+            text-align: center;
+            border-bottom: 1px solid silver;
+            margin-bottom: 25px;
+        }
+        .main_divs p {
+            width: 75%;
+            margin: 0px auto;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .tech_skills {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20%;
+        }
+            h3 {
+                padding: 10px;
+                border-bottom: 1px solid silver;
+                margin-bottom: 10px;
+            }
+            ul {
+                list-style-type: none;
+                margin-bottom: 25px;
+            }
+                li {
+                    text-align: center;
+                }
+        .project_links {
+            color: grey;
+            display: block;
+            text-align: center;
+            margin: 10px 0px;
+        }
+        form {
+            padding: 15px;
+        }
+            input[type='text'] {
+                display: block;
+                margin: 0px auto;
+                margin-bottom: 10px;
+                padding: 2px;
+            }
+            textarea {
+                display: block;
+                padding: 2px;
+                margin: 0px auto;
+            }
+            input[type='submit'] {
+                margin: 0px auto;
+                display: block;
+                font-size: 12pt;
+                background-color: #364356;
+                border-radius: 2px;
+                color: white;
+                padding: 5px;
+                box-shadow: 2px 2px 2px grey;
+                margin-top: 5px;
+            }
