@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojodachi</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <p><span>Fullness:</span> @ViewBag.Fullness <span>Happiness:</span> @ViewBag.Happiness <span>Meals:</span> @ViewBag.Meals <span>Energy:</span> @ViewBag.Energy</p>
+        <div id="main">
+            <img src="~/img/@ViewBag.ImageSource" alt="Dojodachi GIF" height=200 width=200>
+            <p>@ViewBag.Message</p>
+        </div>
+        @{
+            var fullness = ViewBag.Fullness;
+            var happiness = ViewBag.Happiness;
+            var energy = ViewBag.Energy;
+            if (@fullness > 0 && @happiness > 0)
+            {
+                if (@fullness < 101 || @happiness < 101 || @energy < 101)
+                {
+                    <div id="actions">
+                        <form action="/feed" method="post">
+                            <input type="submit" value="Feed">
+                        </form>
+                        <form action="/play" method="post">
+                            <input type="submit" value="Play">
+                        </form>
+                        <form action="/work" method="post">
+                            <input type="submit" value="Work">
+                        </form>
+                        <form action="/sleep" method="post">
+                            <input type="submit" value="Sleep">
+                        </form>
+                    </div> 
+                }
+                else if (@fullness > 100 && @happiness > 100 && energy > 100)
+                {
+                    <form class="reset" action="/reset" method="post">
+                        <input type="submit" value="Reset">
+                    </form>
+                }
+            }
+            if (@fullness < 1 || @happiness < 1)
+            {
+                <form class="reset" action="/reset" method="post">
+                    <input type="submit" value="Reset">
+                </form>
+            }
+        } 
+    </div>
+</body>
+</html>
