@@ -19,47 +19,41 @@ namespace Dojodachi.Controllers
             if (fullness == null)
             {
                 fullness = 20;
-                HttpContext.Session.SetInt32("fullness", 20);
+                HttpContext.Session.SetInt32("fullness", (int)fullness);
             }
-            HttpContext.Session.SetInt32("fullness", (int)fullness);
             //set session fullness to zero if less than zero
             if (fullness < 0)
             {
                 fullness = 0;
-                HttpContext.Session.SetInt32("fullness", 0);
+                HttpContext.Session.SetInt32("fullness", (int)fullness);
             }
-            HttpContext.Session.SetInt32("fullness", (int)fullness);
             //set session happiness to 20 if null
             int? happiness = HttpContext.Session.GetInt32("happiness");
             if (happiness == null)
             {
                 happiness = 20;
-                HttpContext.Session.SetInt32("happiness", 20);
+                HttpContext.Session.SetInt32("happiness", (int)happiness);
             }
-            HttpContext.Session.SetInt32("happiness", (int)happiness);
             //set session happiness to zero if less than zero
             if (happiness < 0)
             {
                 happiness = 0;
-                HttpContext.Session.SetInt32("happiness", 0);
+                HttpContext.Session.SetInt32("happiness", (int)happiness);
             }
-            HttpContext.Session.SetInt32("happines", (int)happiness);
             //set session meals to 3 if null
             int? meals = HttpContext.Session.GetInt32("meals");
             if (meals == null)
             {
                 meals = 3;
-                HttpContext.Session.SetInt32("meals", 3);
+                HttpContext.Session.SetInt32("meals", (int)meals);
             }
-            HttpContext.Session.SetInt32("meals", (int)meals);
             //set session energy to 50 if null
             int? energy = HttpContext.Session.GetInt32("energy");
             if (energy == null)
             {
                 energy = 50;
-                HttpContext.Session.SetInt32("energy", 50);
+                HttpContext.Session.SetInt32("energy", (int)energy);
             }
-            HttpContext.Session.SetInt32("energy", (int)energy);
             //set message and image source if fullness or happiness drops below 1
             if (fullness < 1 || happiness < 1)
             {
