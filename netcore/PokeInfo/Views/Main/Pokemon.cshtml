@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokeInfo</title>
+</head>
+<body>
+    @{
+    var pokeName = @ViewBag.Info["name"];
+    var pokeType = @ViewBag.Info["types"][0]["type"]["name"];
+    var pokeHeight = @ViewBag.Info["height"];
+    var pokeWeight = @ViewBag.Info["weight"];
+   <h1>PokeInfo</h1>
+   <h3>Name: <span style="font-weight: normal;">@pokeName</span></h3>
+   <h3>Primary Type: <span style="font-weight: normal;">@pokeType</span></h3>
+   <h3>Height: <span style="font-weight: normal;">@pokeHeight</span></h3>
+   <h3>Weight: <span style="font-weight: normal;">@pokeWeight</span></h3>
+   <a href="/pokemon">Go Back!</a>
+    }
+</body>
+</html>

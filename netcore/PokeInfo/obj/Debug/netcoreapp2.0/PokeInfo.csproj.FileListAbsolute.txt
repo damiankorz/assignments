@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/bin/Debug/netcoreapp2.0/PokeInfo.deps.json
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/bin/Debug/netcoreapp2.0/PokeInfo.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/bin/Debug/netcoreapp2.0/PokeInfo.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/bin/Debug/netcoreapp2.0/PokeInfo.dll
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/bin/Debug/netcoreapp2.0/PokeInfo.pdb
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.dll
+/Users/damiank/Desktop/assignments/netcore/PokeInfo/obj/Debug/netcoreapp2.0/PokeInfo.pdb
