@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.deps.json
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.dll
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.pdb
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.dll
+/Users/damiank/Desktop/assignments/netcore/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.pdb

@@ -1,0 +1,7 @@
+<h1>Here are the awesome quotes!</h1>
+@foreach (var quote in @ViewBag.AllQuotes)
+{
+    <p>"@quote["quote"]"</p>
+    <p style="border-bottom: 1px solid silver; padding-bottom: 10px; text-align: right;">- @quote["name"] at @quote["created_at"]</p>
+}
+<a href="/">Go back to add quote!</a>
