@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.deps.json
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.dll
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.pdb
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.dll
+/Users/damiank/Desktop/assignments/netcore/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.pdb
