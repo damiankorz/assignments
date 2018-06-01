@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/bin/Debug/netcoreapp2.0/FormSubmission.deps.json
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/bin/Debug/netcoreapp2.0/FormSubmission.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/bin/Debug/netcoreapp2.0/FormSubmission.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/bin/Debug/netcoreapp2.0/FormSubmission.dll
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/bin/Debug/netcoreapp2.0/FormSubmission.pdb
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.dll
+/Users/damiank/Desktop/assignments/netcore/FormSubmission/obj/Debug/netcoreapp2.0/FormSubmission.pdb
