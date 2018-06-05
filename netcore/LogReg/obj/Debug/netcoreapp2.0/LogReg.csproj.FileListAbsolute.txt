@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/LogReg/bin/Debug/netcoreapp2.0/LogReg.deps.json
+/Users/damiank/Desktop/assignments/netcore/LogReg/bin/Debug/netcoreapp2.0/LogReg.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/LogReg/bin/Debug/netcoreapp2.0/LogReg.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/LogReg/bin/Debug/netcoreapp2.0/LogReg.dll
+/Users/damiank/Desktop/assignments/netcore/LogReg/bin/Debug/netcoreapp2.0/LogReg.pdb
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.dll
+/Users/damiank/Desktop/assignments/netcore/LogReg/obj/Debug/netcoreapp2.0/LogReg.pdb

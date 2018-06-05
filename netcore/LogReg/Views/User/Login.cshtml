@@ -1,0 +1,9 @@
+@model LogReg.Models.UserLog
+<div asp-validation-summary="All"></div>
+<h1>Login</h1>
+<form asp-controller="User" asp-action="Login" method="post">
+    <input asp-for="LogEmail" placeholder="Email">
+    <input asp-for="LogPassword" placeholder="Password">
+    <input type="submit" value="Login">
+</form>
+<a href="/register">Don't have an account? Click here to register</a>
