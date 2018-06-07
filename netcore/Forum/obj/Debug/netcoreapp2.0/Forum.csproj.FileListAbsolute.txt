@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/Forum/bin/Debug/netcoreapp2.0/Forum.deps.json
+/Users/damiank/Desktop/assignments/netcore/Forum/bin/Debug/netcoreapp2.0/Forum.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/Forum/bin/Debug/netcoreapp2.0/Forum.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/Forum/bin/Debug/netcoreapp2.0/Forum.dll
+/Users/damiank/Desktop/assignments/netcore/Forum/bin/Debug/netcoreapp2.0/Forum.pdb
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.dll
+/Users/damiank/Desktop/assignments/netcore/Forum/obj/Debug/netcoreapp2.0/Forum.pdb
