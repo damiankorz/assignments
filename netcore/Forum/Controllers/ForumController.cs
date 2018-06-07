@@ -42,7 +42,19 @@ namespace Forum
                 _dbConnector.Execute(query);
                 return RedirectToAction("Index");
             }
-            return View("Index");
+            else 
+            {
+                // Return validation error and store in TempData
+                foreach(var modelState in ModelState.Values)
+                {
+                    foreach(var error in modelState.Errors)
+                    {
+                        TempData["errors"] = error.ErrorMessage;
+
+                    }
+                }
+                return RedirectToAction("Index");
+            }
         }
         // POST: /comments/create
         [HttpPost("comments/create")]
@@ -54,7 +66,19 @@ namespace Forum
                 _dbConnector.Execute(query);
                 return RedirectToAction("Index");
             }
-            return View("Index");
+            else 
+            {
+                // Return validation error and store in TempData
+                foreach(var modelState in ModelState.Values)
+                {
+                    foreach(var error in modelState.Errors)
+                    {
+                        TempData["errors"] = error.ErrorMessage;
+
+                    }
+                }
+                return RedirectToAction("Index");
+            }
         }
         // GET: /delete/message
         [HttpGet("delete/message/{id}")]
