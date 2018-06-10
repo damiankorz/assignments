@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/bin/Debug/netcoreapp2.0/TrailTracker.deps.json
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/bin/Debug/netcoreapp2.0/TrailTracker.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/bin/Debug/netcoreapp2.0/TrailTracker.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/bin/Debug/netcoreapp2.0/TrailTracker.dll
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/bin/Debug/netcoreapp2.0/TrailTracker.pdb
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.dll
+/Users/damiank/Desktop/assignments/netcore/TrailTracker/obj/Debug/netcoreapp2.0/TrailTracker.pdb

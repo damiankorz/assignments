@@ -1,0 +1,13 @@
+@model Trail
+<h1>Add a New Trail</h1>
+<div asp-validation-summary="All"></div>
+<form asp-action="AddTrail" asp-controller="Trail" method="post">
+    <input asp-for="Name" placeholder="Trail Name">
+    <textarea asp-for="Description" cols="28" rows="5" placeholder="Description"></textarea>
+    <input asp-for="Length" placeholder="Trail Length (mi)">
+    <input asp-for="Elevation" placeholder="Elevation Change (ft)">
+    <input asp-for="Longitude" placeholder="Longitude">
+    <input asp-for="Latitude" placeholder="Latitude">
+    <input type="submit" value="Create Record">
+</form>
+<a href="/">Return Home</a>

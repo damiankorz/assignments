@@ -1,0 +1,36 @@
+/* Index View
+    ============================================ */
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+    th {
+        padding-left: 10px;
+        padding-right: 190px;
+        background-color: silver;;
+        border: 1px solid grey;
+    }
+    td {
+        padding: 10px 0px;
+        padding-left: 10px;
+        border-bottom: 1px solid silver;
+    }
+/* NewTrail View
+    ============================================ */
+input {
+    display: block;
+    margin: 10px 0px;
+}
+textarea {
+    display: block;
+    margin: 10px 0px;
+}
+
+/* Trail View
+    ============================================ */
+#trail_div {
+    margin-left: 25px;
+}
+    #trail_div p {
+        margin-left: 25px;
+    }
