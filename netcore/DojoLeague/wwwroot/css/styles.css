@@ -1,0 +1,38 @@
+.info_div {
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+    table {
+        border-collapse: collapse;
+    }
+        th {
+            padding: 5px 0px;
+            padding-left: 5px; 
+            padding-right: 75px;
+            background-color: silver;
+            border: 1px solid black;
+        }
+        td {
+            padding: 5px;
+            border-bottom: 1px solid silver;
+        }
+.form_div {
+    display: inline-block;
+    padding: 10px;
+    border-left: 2px solid black;
+}
+    label {
+        display: block;
+    }
+    input, select, label, textarea {
+        margin-bottom: 10px;
+    }
+    textarea {
+        display: block;
+    }
+.ninjas_div {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 75px;
+}

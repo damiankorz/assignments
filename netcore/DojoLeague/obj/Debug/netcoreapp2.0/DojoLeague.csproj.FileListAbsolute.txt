@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.deps.json
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.dll
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.pdb
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.dll
+/Users/damiank/Desktop/assignments/netcore/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.pdb
