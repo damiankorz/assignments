@@ -1,0 +1,20 @@
+@model Review 
+<h1>Write a new Review</h1>
+<div asp-validation-summary="All"></div>
+<form asp-action="Create" asp-controller="Review" method="post">
+    <input asp-for="ReviewerName" placeholder="Reviewer Name">
+    <input asp-for="RestaurantName" placeholder="Restaurant Name">
+    <textarea asp-for="RestaurantReview" placeholder="Enter review here..." cols="30" rows="10"></textarea>
+    <label asp-for="DateVisited"></label>
+    <input asp-for="DateVisited">
+    <label asp-for="Rating">Stars</label>
+    <select asp-for="Rating">
+        @for(int i = 1; i < 6; i++)
+        {
+            <option>@i</option>
+        }
+    </select>
+    <input type="hidden" asp-for="CreatedAt" value=@DateTime.Now>
+    <input type="hidden" asp-for="UpdatedAt" value=@DateTime.Now>
+    <input type="submit" value="Add Review">
+</form>

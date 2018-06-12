@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.deps.json
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.pdb
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/damiank/Desktop/assignments/netcore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.pdb
