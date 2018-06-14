@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/Bank/bin/Debug/netcoreapp2.0/Bank.deps.json
+/Users/damiank/Desktop/assignments/netcore/Bank/bin/Debug/netcoreapp2.0/Bank.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/Bank/bin/Debug/netcoreapp2.0/Bank.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/Bank/bin/Debug/netcoreapp2.0/Bank.dll
+/Users/damiank/Desktop/assignments/netcore/Bank/bin/Debug/netcoreapp2.0/Bank.pdb
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.dll
+/Users/damiank/Desktop/assignments/netcore/Bank/obj/Debug/netcoreapp2.0/Bank.pdb

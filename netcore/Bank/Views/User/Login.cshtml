@@ -1,0 +1,9 @@
+@model UserLogin
+<h1>Login</h1>
+<div asp-validation-summary="All"></div>
+<form asp-action="ProcessLog" asp-controller="User" method="Post">
+    <input asp-for="Email" placeholder="Email">
+    <input asp-for="Password" placeholder="Password">
+    <input type="submit" value="Login">
+</form>
+<a href="/">Need to Register?</a>

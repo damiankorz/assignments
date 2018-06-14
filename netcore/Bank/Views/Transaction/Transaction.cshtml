@@ -1,0 +1,6 @@
+@model TransactionValidation
+<form style="margin: 25px 0px;" asp-action="ProcessTransaction" asp-controller="Transaction" method="post">
+    <label asp-for="Amount">Withdraw(-)/Deposit(+)</label>
+    <input asp-for="Amount" value="" placeholder="$0.00">
+    <input type="submit" value="Process">
+</form>

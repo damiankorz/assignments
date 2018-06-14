@@ -1,0 +1,12 @@
+@model UserRegister
+<h1>Register</h1>
+<div asp-validation-summary="All"></div>
+<form asp-action="ProcessReg" asp-controller="User" method="post">
+    <input asp-for="FirstName" placeholder="First Name">
+    <input asp-for="LastName" placeholder="Last Name">
+    <input asp-for="Email" placeholder="Email">
+    <input asp-for="Password" placeholder="Password">
+    <input asp-for="ConfirmPassword" placeholder="Confirm Password">
+    <input type="submit" value="Register">
+</form>
+<a href="/login">Already Registered?</a>

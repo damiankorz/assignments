@@ -1,0 +1,23 @@
+@model User
+<h1>Welcome, @Model.FirstName @Model.LastName </h1>
+<a style="display: block;" href="/logout">Logout</a>
+@if(TempData["errors"] != null)
+{
+    <p>@TempData["errors"]</p>
+}
+<h2 style="display: inline-block;">Current Balance:</h2>
+<h3 style="display: inline-block; padding: 5px; border: 1px solid silver;">$@Model.Balance</h3>
+@Html.Partial("Transaction", new TransactionValidation())
+<table style="border-collapse: collapse;">
+    <tr>
+        <th style="padding-left: 5px; padding-right: 100px; border: 1px solid black;">Amount</th>
+        <th style="padding-left: 5px; padding-right: 100px; border: 1px solid black;">Date</th>
+    </tr>
+    @foreach(var item in Model.Transactions)
+    {
+        <tr>
+            <td style="padding: 5px 0px; padding-left: 10px; border-bottom: 1px solid silver;">$@item.Amount</td>
+            <td style="padding: 5px 0px; padding-left: 10px; border-bottom: 1px solid silver;">@item.CreatedAt</td>
+        </tr>
+    }
+</table>
