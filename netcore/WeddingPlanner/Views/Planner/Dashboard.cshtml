@@ -1,0 +1,32 @@
+@model DashViewModels
+<h1>Welcome to the Wedding Planner</h1>
+<a href="/logout">Logout</a>
+<table>
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guests</th>
+        <th>Action</th>
+    </tr>
+    @foreach(Wedding wed in Model.AllWeddings)
+    {
+        <tr>
+            <td><a href="/weddings/@wed.ID">@wed.Groom & @wed.Bride</a></td>
+            <td>@wed.Date.ToString("D")</td>
+            <td>@wed.Attendees.Count</td>
+            @if(@wed.UserID == @Model.User.ID)
+            {
+                <td><a href="/weddings/@wed.ID/delete">Delete</a></td>
+            }
+            @if(wed.Attendees.Where(a => a.UserID == Model.User.ID).SingleOrDefault() == null && @wed.UserID != @Model.User.ID)
+            {
+                <td><a href="/weddings/@wed.ID/rsvp">RSVP</a></td>
+            }
+            else if(wed.Attendees.Where(a => a.UserID == Model.User.ID).SingleOrDefault() != null && @wed.UserID != @Model.User.ID)
+            {
+                <td><a href="/weddings/@wed.ID/un-rsvp">Un-RSVP</a></td>
+            }
+        </tr>
+    }
+</table>
+<button><a href="/new">New Wedding</a></button>

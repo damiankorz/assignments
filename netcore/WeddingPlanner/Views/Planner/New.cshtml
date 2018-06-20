@@ -1,0 +1,12 @@
+@model WeddingCreation
+<h1>Plan Your Wedding</h1>
+<div asp-validation-summary="All"></div>
+<a href="/dashboard">Dashboard</a>
+<a href="/logout">Logout</a>
+<form asp-action="Create" asp-controller="Planner" method="post">
+    <input asp-for="Groom" placeholder="Name of Groom">
+    <input asp-for="Bride" placeholder="Name of Bride">
+    <input type="date" asp-for="Date">
+    <input asp-for="Address" placeholder="Address">
+    <input type="submit" value="Create">
+</form>

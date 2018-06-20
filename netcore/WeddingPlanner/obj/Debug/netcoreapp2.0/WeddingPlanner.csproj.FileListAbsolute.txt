@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.deps.json
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.dll
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.pdb
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.dll
+/Users/damiank/Desktop/assignments/netcore/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.pdb
