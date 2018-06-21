@@ -75,7 +75,7 @@ namespace WeddingPlanner.Controllers
                     return View("Index", model);
                 }
                 PasswordHasher<UserViewModels> hasher = new PasswordHasher<UserViewModels>();
-                string hashedPassword = hasher.HashPassword(model, model.Registration.Email);
+                string hashedPassword = hasher.HashPassword(model, model.Registration.Password);
                 User user = new User
                 {
                     FirstName = model.Registration.FirstName,
