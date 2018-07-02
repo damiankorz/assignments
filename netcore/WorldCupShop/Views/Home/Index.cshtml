@@ -1,0 +1,45 @@
+﻿@model HomeModels
+<div class="banner">
+    <img style="margin-left: 15px;" src="~/images/russia2018.png" alt="Russia 2018 Logo" height=100 width=100>
+    <h1 style="display: inline-block;">World Cup Soccer Shop</h1>
+    <hr>
+</div>
+<div id="home_wrapper">
+    <div class="home_div">
+        @foreach(Product item in Model.AllProducts)
+        {
+            <div class="product_display">
+                <img src="@item.ImageURL" alt="Product Image" width=100 height=100>
+                <h4>@item.ProductName</h4>
+                <p>@item.ProductDescription</p>
+                <p>(@item.ProductQuantity left)</p>
+            </div>
+        }
+        @if(Model.AllProducts.Count < 5)
+        {
+            <a class="links" style="display: block;" href="/all/products">Show more...</a>
+        }
+    </div>
+    <div class="home_div">
+        <h2>Recent Orders</h2>
+        @foreach(Order order in Model.AllOrders)
+        {
+            <p style="margin: 5px 0px 5px 15px;" >@order.Customer.CustomerName purchased @order.OrderQuantity @order.Product.ProductName...(@DateTime.Now.Subtract(@order.CreatedAt).Days days ago)</p>
+        }
+        @if(Model.AllOrders.Count < 4)
+        {
+            <a class="links" href="/all/orders">Show all orders...</a>
+        }
+    </div>
+    <div class="home_div">
+        <h2>Recent Customers</h2>
+        @foreach(Customer customer in Model.AllCustomers)
+        {
+            <p style="margin: 5px 0px 5px 15px;">@customer.CustomerName joined the store... (@DateTime.Now.Subtract(@customer.CreatedAt).Days days ago)</p>
+        }
+        @if(Model.AllCustomers.Count < 4)
+        {
+            <a class="links" href="/all/customers">Show all customers...</a>
+        }
+    </div>
+</div>

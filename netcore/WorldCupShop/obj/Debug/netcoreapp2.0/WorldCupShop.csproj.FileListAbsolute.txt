@@ -1,0 +1,11 @@
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/bin/Debug/netcoreapp2.0/WorldCupShop.deps.json
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/bin/Debug/netcoreapp2.0/WorldCupShop.runtimeconfig.json
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/bin/Debug/netcoreapp2.0/WorldCupShop.runtimeconfig.dev.json
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/bin/Debug/netcoreapp2.0/WorldCupShop.dll
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/bin/Debug/netcoreapp2.0/WorldCupShop.pdb
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.csprojResolveAssemblyReference.cache
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.csproj.CoreCompileInputs.cache
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.AssemblyInfoInputs.cache
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.AssemblyInfo.cs
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.dll
+/Users/damiank/Desktop/assignments/netcore/WorldCupShop/obj/Debug/netcoreapp2.0/WorldCupShop.pdb

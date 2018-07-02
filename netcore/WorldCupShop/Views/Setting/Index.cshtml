@@ -1,0 +1,26 @@
+@model ProductModels
+<div class="banner">
+    <img style="margin-left: 15px;" src="~/images/russia2018.png" alt="Russia 2018 Logo" height=100 width=100>
+    <h1 style="display: inline-block;">Settings</h1>
+    <hr>
+</div>
+<div>
+    <h2 style="margin: 15px 0px 15px 15px;">Recieve Inventory</h2>
+    <form style="margin: 15px;" asp-action="Update" asp-controller="Setting">
+        <label asp-for="Product.ID">Product:</label>
+        <select asp-for="Product.ID">
+            @foreach(Product item in Model.MultipleProducts)
+            {
+                <option value="@item.ID">@item.ProductName</option>
+            }
+        </select>
+        <label asp-for="Product.ProductQuantity">Quantity:</label>
+        <select asp-for="Product.ProductQuantity">
+            @for(int i = 50; i < 501; i+=50)
+            {
+                <option>@i</option>
+            }
+        </select>
+        <button style="margin: 5px 0px;" class="form_button">Recieve</button>
+    </form>
+</div>

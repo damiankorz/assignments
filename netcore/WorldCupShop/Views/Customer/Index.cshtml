@@ -1,0 +1,31 @@
+@model CustomerModels
+<div class="banner">
+    <img style="margin-left: 15px;" src="~/images/russia2018.png" alt="Russia 2018 Logo" height=100 width=100>
+    <h1 style="display: inline-block;">Customers</h1>
+    <hr>
+</div>
+<div class="customer_div">
+    <h2 style="margin-top: 15px;">Add a new customer</h2>
+    <div style="margin: 5px 0px 5px 25px;" asp-validation-summary="All"></div>
+    <form asp-action="New" asp-controller="Customer" method="post">
+        <input asp-for="Customer.CustomerName" style="display: inline-block; padding: 5px; margin-top: 10px;" placeholder="Customer Name">
+        <button style="display: inline-block;" class="form_button">Add</button>
+    </form>
+</div>
+<div class="customer_div">
+    <table>
+        <tr>
+            <th>Customer Name</th>
+            <th>Created Date</th>
+            <th>Action</th>
+        </tr>
+        @foreach(Customer cust in Model.AllCustomers)
+        {
+        <tr>
+            <td>@cust.CustomerName</td>
+            <td>@cust.CreatedAt.ToString("D")</td>
+            <td><a class="links" href="/customers/@cust.ID/delete">Remove</a></td>
+        </tr>
+        }
+    </table>
+</div>

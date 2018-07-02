@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+/* Nav Bar
+    ================================== */
+nav {
+    display: inline-block;
+    margin-left: 50%;
+    box-shadow: 2px 2px 5px grey;
+}
+    nav button {
+        background-color: #2626a0;
+        padding: 15px;
+        border: none;
+    }
+    nav button a {
+        color: white;
+        text-decoration: none;
+        font-size: 14pt;
+        text-decoration: none;
+    }
+/*  Shared Views
+    =================================== */
+h1 {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.banner {
+    background: linear-gradient(to bottom right, skyblue, white);
+    padding-top: 10px;
+}
+.form_button {
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0px auto;
+    display: block;
+    box-shadow: 2px 2px 5px grey;
+}
+/* Home View
+    =================================== */
+#home_wrapper {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 900px;
+}
+    .home_div {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+/* Order View
+    ====================================== */
+.order_div {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+    .order_div form {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+        .order_div select {
+            margin: 5px 0px;
+        }
+    table {
+        border-collapse: collapse;
+    }
+        table th {
+            padding: 10px 125px 10px 5px;
+            background-color: #2626a0;
+            color: white;
+            border: 1px solid silver;;
+        }
+        table td {
+            padding: 8px 0px;
+            padding-left: 5px;
+            border-bottom: 1px solid silver;
+        }
+/* Customer View 
+    ======================================= */
+.customer_div {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+    .customer_div form {
+        margin-bottom: 50px;
+    }
+/* Product View
+    ======================================= */
+#product_wrapper {
+    display: inline-block;
+    margin-top: 15px;
+    width: 900px;
+}
+#side_div {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+    #side_div input[type='text'] {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .product_display {
+        display: inline-block;
+        padding: 15px;
+        border: 1px solid silver;
+        width: 175px;
+        margin-bottom: 15px;
+    }
+        .product_display img {
+            display: block;
+            margin: 0px auto;
+            margin-bottom: 15px;
+        }
+        .product_display p {
+            margin-top: 15px;
+            font-size: 10pt;
+        }

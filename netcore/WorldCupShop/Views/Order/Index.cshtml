@@ -1,0 +1,48 @@
+@model OrderModels
+<div class="banner">
+    <img style="margin-left: 15px;" src="~/images/russia2018.png" alt="Russia 2018 Logo" height=100 width=100>
+    <h1 style="display: inline-block;">Orders</h1>
+    <hr>
+</div>
+<div class="order_div">
+    <h2 style="margin-top: 15px;">Add a new order</h2>
+    <div style="margin: 5px 0px 0px 25px;" asp-validation-summary="All"></div>
+    <form asp-action="New" asp-controller="Order" method="post">
+        <label asp-for="Orders.CustomerID">Customer:</label>
+        <select asp-for="Orders.CustomerID">
+            @foreach(Customer cust in Model.Customers)
+            {
+                <option value="@cust.ID">@cust.CustomerName</option>
+            }
+        </select>
+        <label asp-for="Orders.ProductID">Product:</label>
+        <select asp-for="Orders.ProductID">
+            @foreach(Product item in Model.Products)
+            {
+                <option value="@item.ID">@item.ProductName</option>
+            }
+        </select>
+        <label asp-for="Orders.OrderQuantity">Qty:</label>
+        <input type="text" value=" " style="width: 45px;" asp-for="Orders.OrderQuantity">
+        <button style="margin: 0px" class="form_button">Order</button>
+    </form>
+</div>
+<div class="order_div">
+    <table>
+        <tr>
+            <th>Customer Name</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Date</th>
+        </tr>
+        @foreach(Order transaction in Model.Transactions)
+        {
+        <tr>
+            <td>@transaction.Customer.CustomerName</td>
+            <td>@transaction.Product.ProductName</td>
+            <td>@transaction.OrderQuantity</td>
+            <td>@transaction.CreatedAt.ToString("D")</td>
+        </tr>
+        }
+    </table>
+</div>
