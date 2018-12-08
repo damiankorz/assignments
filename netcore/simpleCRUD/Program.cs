@@ -8,61 +8,68 @@ namespace simpleCRUD
     {
         static void Main(string[] args)
         {
-            // ReadDataBase();
-            // CreateDataBaseEntry();
-            // UpdateDataBaseEntry();
-            // DeleteDataBaseEntry();
+            Create();
+            Update();
+            Delete();
+            Read();
         }
-        //Display all entries in database
-        public static void ReadDataBase()
+        //Read database and return a list of dictionaries 
+        public static List<Dictionary<string, object>> Read()
         {
-            string query = "SELECT * FROM users;";
-            var allUsers = DbConnector.Query(query);
-            foreach (var user in allUsers)
-            {
-                Console.WriteLine($"ID: {user["id"]}, First Name: {user["first_name"]}, Last Name: {user["last_name"]}, Favorite Number {user["favorite_number"]}");
-            }
+            var results = DbConnector.Query
+            (
+                @"SELECT 
+                     first_name 
+                    ,last_name 
+                    ,favorite_number
+                    ,created_at
+                    ,id
+                FROM
+                    users
+                ORDER BY last_name DESC"
+            );
+            return results;
         }
-        //Create a new database entry and display all entries after creation
-        public static void CreateDataBaseEntry()
+        //Create a new database entry 
+        public static void Create()
         {
-            Console.WriteLine("Enter first name:");
-            string firstName = Console.ReadLine();
-            Console.WriteLine("Enter last name:");
-            string lastName = Console.ReadLine();
-            Console.WriteLine("Enter favorite number:");
-            string favNumAsString = Console.ReadLine();
-            int favNum = int.Parse(favNumAsString);
-            string query = $"INSERT INTO users (first_name, last_name, favorite_number, created_at, updated_at) VALUES ('{firstName}', '{lastName}', {favNum}, NOW(), NOW());";
-            DbConnector.Execute(query);
-            ReadDataBase();
+            DbConnector.Execute
+            (
+                @"INSERT INTO users
+                (
+                     first_name
+                    ,last_name
+                    ,favorite_number
+                    ,created_at
+                    ,updated_at
+                )
+                VALUES
+                (
+                     'Luke'
+                    ,'Skywalker'
+                    ,'11'
+                    ,now()
+                    ,now()
+                    
+                );"
+            );
         }
-        //Update a database entry based on the user ID and display all entries after update
-        public static void UpdateDataBaseEntry()
+        //Update a database entry 
+        public static void Update()
         {
-            Console.WriteLine("Enter user ID to update entry:");
-            string userIDAsString = Console.ReadLine();
-            int userID = int.Parse(userIDAsString);
-            Console.WriteLine("Update first name:");
-            string firstName = Console.ReadLine();
-            Console.WriteLine("Update last name:");
-            string lastName = Console.ReadLine();
-            Console.WriteLine("Update favorite number:");
-            string favNumAsString = Console.ReadLine();
-            int favNum = int.Parse(favNumAsString);
-            string query = $"UPDATE users SET first_name = '{firstName}', last_name = '{lastName}', favorite_number = {favNum} WHERE id = {userID};";
-            DbConnector.Execute(query);
-            ReadDataBase();
+            DbConnector.Execute(
+                @"UPDATE users
+                SET favorite_number = 100
+                WHERE id = 2;"
+            );
         }
-        //Delete a database entry based on the user ID and display all entries after delete
-        public static void DeleteDataBaseEntry()
+        //Delete a database entry 
+        public static void Delete()
         {
-            Console.WriteLine("Enter user ID to delete entry:");
-            string userIDAsString = Console.ReadLine();
-            int userID = int.Parse(userIDAsString);
-            string query = $"DELETE FROM users WHERE id = {userID};";
-            DbConnector.Execute(query);
-            ReadDataBase();
+           DbConnector.Execute(
+               @"DELETE FROM users
+               WHERE id = 2;"
+           );
         }
     }
 }

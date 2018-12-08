@@ -11,8 +11,10 @@ namespace DbConnection
         static string port = "3306"; //Potentially 8889
         static string user = "root";
         static string pass = "root";
-        internal static IDbConnection Connection {
-            get {
+        internal static IDbConnection Connection 
+        {
+            get 
+            {
                 return new MySqlConnection($"Server={server};Port={port};Database={db};UserID={user};Password={pass};SslMode=None");
             }
         }
